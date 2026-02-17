@@ -74,11 +74,14 @@ Pertanyaan
 
       ## Output
 
-# TUGAS
-## Tugas 1
+## TUGAS
+#### Tugas 1
 Susun program untuk membuat dua buah array berikut isinya sebagai berikut.
+
 Array pertama adalah array satu dimensi char KODE[10], berisi kode plat mobil.
+
 Array kedua, array dua dimensi char KOTA[10][12] berisi nama kota yang berpasangan dengan kode plat mobil.
+
 Ilustrasi tampilan array tersebut adalah sebagai berikut :
 
 <img width="694" height="353" alt="image" src="https://github.com/user-attachments/assets/78967c43-021a-4ef3-8bd6-90bcbef5ad76" />
@@ -89,20 +92,33 @@ Ketika pengguna memberikan input kode plat nomor maka program akan mengeluarkan 
 
 ## Output
 
-## Tugas 2
+#### Tugas 2
 Sebuah program digunakan untuk menyimpan dan mengelola jadwal kuliah mahasiswa.
+
 Data jadwal disimpan dalam array 2 dimensi bertipe string, dengan ketentuan
+
 • Baris menyatakan jadwal ke-i
+
 • Kolom menyatakan informasi jadwal : Nama Mata Kuliah, Ruang, Hari Kuliah, Jam Kuliah. Contoh :
+
 jadwal[0][0] = "Pemrograman Dasar"
+
 jadwal[0][1] = "Lab Komputasi 1"
+
 jadwal[0][2] = "Senin"
+
 jadwal[0][3] = "08.00–10.00"
+
 • Jumlah jadwal kuliah sebanyak n, diinputkan oleh pengguna.
+
 Buatkan fungsi untuk
+
 a. Menginput data jadwal kuliah ke dalam array 2 dimensi
+
 b. Menampilkan seluruh jadwal kuliah dalam bentuk tabel
+
 c. Menampilkan jadwal kuliah berdasarkan hari tertentu
+
 d. Menampilkan jadwal kuliah berdasarkan nama mata kuliah tertentu
 
 ## Code Program
