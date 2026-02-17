@@ -18,9 +18,9 @@ Pertanyaan
     • Otuput dari program “nilai tidak valid” jika nilai yang dimasukkan diluar ketentuan
     • Output dari program berupa hasil nilai akhir, nilai huruf, dan keterangan LULUS/TIDAK LULUS
 
-   ## Code Program
+   #### Code Program
 
-   ## Output
+   #### Output
 
 ## 2.3.1 Praktikum Perulangan
 Pertanyaan
@@ -39,9 +39,9 @@ Pertanyaan
    ##### Input NIM: 2541720120 maka n=20
    ##### Output: * 2 # 4 * # * 8 # * # * 14 16 * # * 20
 
-   ## Code Program
+   #### Code Program
 
-   ## Output
+   #### Output
 
 ## 2.4.1 Praktikum Array
 Pertanyaan
@@ -55,9 +55,9 @@ Pertanyaan
    
    Input dari program berupa nama mata kuliah, bobot SKS, serta nilai huruf dari mata kuliah tersebut.
 
-   ## Code Program
+   #### Code Program
 
-   ## Output
+   #### Output
 
 ## 2.5.1 Praktikum Fungsi
 Pertanyaan
@@ -70,9 +70,9 @@ Pertanyaan
       a. Jika pendapatan cabang > Rp1.500.000, maka cabang tersebut mendapat status “Sangat Baik”
       b. Jika pendapatan ≤ Rp1.500.000, status “Perlu Evaluasi”.
 
-      ## Code Program
+      #### Code Program
 
-      ## Output
+      #### Output
 
 ## TUGAS
 #### Tugas 1
@@ -88,9 +88,9 @@ Ilustrasi tampilan array tersebut adalah sebagai berikut :
 
 Ketika pengguna memberikan input kode plat nomor maka program akan mengeluarkan nama kota dari kode plat nomor tersebut.
 
-## Code Program
+#### Code Program
 
-## Output
+#### Output
 
 #### Tugas 2
 Sebuah program digunakan untuk menyimpan dan mengelola jadwal kuliah mahasiswa.
@@ -121,6 +121,6 @@ c. Menampilkan jadwal kuliah berdasarkan hari tertentu
 
 d. Menampilkan jadwal kuliah berdasarkan nama mata kuliah tertentu
 
-## Code Program
+#### Code Program
 
-## Output
+#### Output
