@@ -19,8 +19,12 @@ Pertanyaan
     • Output dari program berupa hasil nilai akhir, nilai huruf, dan keterangan LULUS/TIDAK LULUS
 
    #### Code Program
+   <img width="1185" height="988" alt="image" src="https://github.com/user-attachments/assets/a62d7f78-753c-4463-ade9-914b623950bf" />
 
    #### Output
+   <img width="188" height="143" alt="image" src="https://github.com/user-attachments/assets/7177e8eb-c4c9-4144-8c96-908c0c24e8e6" />
+
+   <img width="196" height="172" alt="image" src="https://github.com/user-attachments/assets/9e3d8399-c0bc-453d-80aa-2192c5547e4c" />
 
 ## 2.3.1 Praktikum Perulangan
 Pertanyaan
@@ -40,8 +44,10 @@ Pertanyaan
    ##### Output: * 2 # 4 * # * 8 # * # * 14 16 * # * 20
 
    #### Code Program
+   <img width="561" height="561" alt="image" src="https://github.com/user-attachments/assets/291aa8af-23a4-42d9-8488-b69319d03581" />
 
    #### Output
+   <img width="138" height="33" alt="image" src="https://github.com/user-attachments/assets/eb258745-b1f5-4aaa-bd8d-5b47147a98e2" />
 
 ## 2.4.1 Praktikum Array
 Pertanyaan
@@ -56,8 +62,12 @@ Pertanyaan
    Input dari program berupa nama mata kuliah, bobot SKS, serta nilai huruf dari mata kuliah tersebut.
 
    #### Code Program
+   <img width="616" height="632" alt="image" src="https://github.com/user-attachments/assets/c10f35c9-b9a4-4737-8228-a5faadbf5a48" />
+
+   <img width="501" height="587" alt="image" src="https://github.com/user-attachments/assets/f1f8f3f7-0d02-4222-bcae-089a19ac45fa" />
 
    #### Output
+   <img width="455" height="325" alt="image" src="https://github.com/user-attachments/assets/824af043-93f0-446e-bf25-f9598728f0c3" />
 
 ## 2.5.1 Praktikum Fungsi
 Pertanyaan
@@ -71,8 +81,10 @@ Pertanyaan
       b. Jika pendapatan ≤ Rp1.500.000, status “Perlu Evaluasi”.
 
       #### Code Program
+      <img width="774" height="622" alt="image" src="https://github.com/user-attachments/assets/0ba49aff-6922-422b-a395-80fc074513fd" />
 
       #### Output
+      <img width="196" height="209" alt="image" src="https://github.com/user-attachments/assets/7da88d3e-1f1c-4362-ae3c-7279e1f9dde8" />
 
 ## TUGAS
 #### Tugas 1
@@ -89,8 +101,10 @@ Ilustrasi tampilan array tersebut adalah sebagai berikut :
 Ketika pengguna memberikan input kode plat nomor maka program akan mengeluarkan nama kota dari kode plat nomor tersebut.
 
 #### Code Program
+<img width="537" height="558" alt="image" src="https://github.com/user-attachments/assets/1258e262-532a-4f27-8d7a-a7361622dbc3" />
 
 #### Output
+<img width="215" height="30" alt="image" src="https://github.com/user-attachments/assets/128bac1c-5371-41b1-91e7-590a31347ca7" />
 
 #### Tugas 2
 Sebuah program digunakan untuk menyimpan dan mengelola jadwal kuliah mahasiswa.
@@ -122,5 +136,9 @@ c. Menampilkan jadwal kuliah berdasarkan hari tertentu
 d. Menampilkan jadwal kuliah berdasarkan nama mata kuliah tertentu
 
 #### Code Program
+<img width="615" height="729" alt="image" src="https://github.com/user-attachments/assets/1eca4a69-a81c-4b84-893f-ca028167462b" />
+
+<img width="518" height="591" alt="image" src="https://github.com/user-attachments/assets/a08224dc-7356-4c49-b4a3-87cb5df4662a" />
 
 #### Output
+<img width="355" height="394" alt="image" src="https://github.com/user-attachments/assets/2671b2e7-74a7-4076-9013-a6dcf0b84654" />
