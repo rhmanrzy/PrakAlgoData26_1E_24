@@ -2,7 +2,7 @@
 
 #### Nama  : Rahma Aulia Nurrizky
 #### NIM   : 254107020168
-### #Kelas : TI-1E
+#### Kelas : TI-1E
 
 ## 2.2.1 Praktikum Pemilihan
 Pertanyaan
