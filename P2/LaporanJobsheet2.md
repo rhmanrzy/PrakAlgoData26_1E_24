@@ -168,6 +168,7 @@ Pertanyaan
     ![img](https://github.com/user-attachments/assets/9e5d2be3-9c56-4f04-9a2d-b958ad81769c)
 
 2. Diberikan class diagram dari class Dosen sebagai berikut :
+   
    ![img](https://github.com/user-attachments/assets/01ecb285-8e32-42c5-a3eb-aecc75e2881f)
 
    Buat program untuk mengimplementasikan class Dosen berdasarkan class diagram di atas, yang terdiri dari:
