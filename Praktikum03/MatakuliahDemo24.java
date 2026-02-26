@@ -28,12 +28,7 @@ public class MatakuliahDemo24 {
 
         for (int i = 0; i < 3; i++) {
             System.out.println("Data Matakuliah ke- " + (i + 1));
-            System.out.println("Kode           : " + arrayOfMatakuliah24[i].kode);
-            System.out.println("Nama           : " + arrayOfMatakuliah24[i].nama);
-            System.out.println("SKS            : " + arrayOfMatakuliah24[i].sks);
-            System.out.println("Jumlah Jam     : " + arrayOfMatakuliah24[i].jumlahJam);
-            System.out.println("------------------------------");
-            
+            arrayOfMatakuliah24[i].cetakInfo();
         }
     }
 }
