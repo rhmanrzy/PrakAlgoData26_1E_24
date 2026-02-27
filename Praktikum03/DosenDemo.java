@@ -34,9 +34,11 @@ public class DosenDemo {
             arrayOfDosen24[i] = new Dosen24(kode, nama, jenisKelamin, usia);
         }
 
-        for (int i = 0; i < jumlah; i++) {
-            System.out.println("Data Dosen ke-" + (i + 1));
-            arrayOfDosen24[i].cetakInfo();
-        }
+        DataDosen24 data = new DataDosen24();
+        data.dataSemuaDosen(arrayOfDosen24);
+        data.jumlahDosenPerJenisKelamin(arrayOfDosen24);
+        data.rerataUsiaDosenPerJenisKelamin(arrayOfDosen24);
+        data.infoDosenPalingTua(arrayOfDosen24);
+        data.infoDosenPalingMuda(arrayOfDosen24);
     }
 }
