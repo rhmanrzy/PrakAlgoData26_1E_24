@@ -1,8 +1,12 @@
 package Praktikum05;
 
 public class MahasiswaBerprestasi24 {
-    Mahasiswa24[] listMhs = new Mahasiswa24[5];
+    Mahasiswa24[] listMhs;
     int idx = 0;
+
+    MahasiswaBerprestasi24(int n){
+        listMhs = new Mahasiswa24[n];
+    }
 
     void tambah(Mahasiswa24 m){
         if (idx < listMhs.length) {
