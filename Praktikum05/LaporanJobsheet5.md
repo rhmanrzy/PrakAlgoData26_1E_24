@@ -23,7 +23,7 @@ Pertanyaan!
 
 2. Tunjukkan kode program yang merupakan algoritma pencarian nilai minimum pada selection sort!
 
-   ![img](https://github.com/user-attachments/assets/f85734e0-cf02-40b9-835e-044882a0dab3)
+   ![img](https://github.com/user-attachments/assets/31b894e9-c0dd-462a-891e-1a456312d135)
 
 3. Pada Insertion sort , jelaskan maksud dari kondisi pada perulangan
 
