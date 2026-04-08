@@ -19,17 +19,17 @@ Pertanyaan!
 
    ![img](https://github.com/user-attachments/assets/378020ef-5cba-4eb9-8edf-f3ad48172fd5)
 
-   Digunakan untuk menukar (swap) dua nilai dalam array jika urutannya salah.
+   Untuk menukar (swap) dua nilai dalam array jika urutannya salah
 
 2. Tunjukkan kode program yang merupakan algoritma pencarian nilai minimum pada selection sort!
 
-   ![img](https://github.com/user-attachments/assets/f85734e0-cf02-40b9-835e-044882a0dab3)
+   ![img](https://github.com/user-attachments/assets/31b894e9-c0dd-462a-891e-1a456312d135)
 
 3. Pada Insertion sort , jelaskan maksud dari kondisi pada perulangan
 
    ![img](https://github.com/user-attachments/assets/a5be3f9a-e5fc-429b-8abb-7d5d8cc842a1)
 
-   Perulangan akan terus berjalan selama:
+   Perulangan akan terus berjalan selama :
 
    j >= 0 => index masih dalam batas array
 
@@ -64,10 +64,10 @@ Pertanyaan
      Karena setiap langkah sudah ada satu data yang berada di posisi benar, jadi cukup dilakukan sebanyak jumlah data dikurangi satu.
      
   b. Mengapa syarat dari perulangan j adalah j<listMhs.length-i ?
-     Karena bagian belakang array sudah rapi, sehingga tidak perlu dicek lagi.
+     Karena bagian belakang array sudah rapi, sehingga tidak perlu dicek lagi
      
   c. Jika banyak data di dalam listMhs adalah 50, maka berapakali perulangan i akan berlangsung? Dan ada berapa Tahap bubble sort yang ditempuh?
-     Jika data ada 50, maka perulangan i terjadi sebanyak 49 kali dan tahap Bubble Sort juga ada 49 tahap.
+     Jika data ada 50, maka perulangan i terjadi sebanyak 49 kali dan tahap Bubble Sort juga ada 49 tahap
      
 2. Modifikasi program diatas dimana data mahasiswa bersifat dinamis (input dari keyborad) yang terdiri dari nim, nama, kelas, dan ipk!
 
@@ -94,11 +94,7 @@ Di dalam method selection sort, terdapat baris program seperti di bawah ini:
 
 Untuk apakah proses tersebut, jelaskan!
 
-Kode tersebut digunakan untuk mencari posisi nilai terkecil (minimum) dalam array, dimulai dari indeks ke-i.
-
-Awalnya, idxMin = i dianggap sebagai nilai paling kecil. Kemudian perulangan j digunakan untuk membandingkan elemen setelahnya. Jika ditemukan nilai yang lebih kecil (listMhs[j].ipk < listMhs[idxMin].ipk), maka idxMin akan diperbarui.
-
-Proses ini bertujuan untuk menentukan data dengan IPK paling kecil yang nantinya akan ditukar dengan posisi ke-i dalam algoritma Selection Sort.
+Untuk mencari posisi nilai terkecil (minimum) dalam array, dimulai dari indeks ke-i. Awalnya, idxMin = i dianggap sebagai nilai paling kecil. Kemudian perulangan j digunakan untuk membandingkan elemen setelahnya. Jika ditemukan nilai yang lebih kecil (listMhs[j].ipk < listMhs[idxMin].ipk), maka idxMin akan diperbarui
 
 ## 5.4 Mengurutkan Data Mahasiswa Berdasarkan IPK Menggunakan Insertion Sort
 
