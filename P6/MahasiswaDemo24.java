@@ -5,7 +5,9 @@ import java.util.Scanner;
 public class MahasiswaDemo24 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int jumMhs = 5;
+        System.out.print("Masukkan jumlah mahasiswa : ");
+        int jumMhs = sc.nextInt();
+        sc.nextLine();
 
         MahasiswaBerprestasi24 list = new MahasiswaBerprestasi24(jumMhs);
 
