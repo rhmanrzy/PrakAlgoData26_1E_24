@@ -18,8 +18,8 @@ public class MahasiswaDemo24 {
             System.out.print("Kelas : ");
             String kelas = sc.nextLine();
             System.out.print("IPK   : ");
-            double ipk = Double.parseDouble(sc.nextLine());
-
+            String ip = sc.nextLine();
+            double ipk = Double.parseDouble(ip);
             System.out.println("------------------------------------------");
             list.tambah(new Mahasiswa24(nim, nama, kelas, ipk));
         }
@@ -28,11 +28,14 @@ public class MahasiswaDemo24 {
         System.out.println("------------------------------------------");
         System.out.println("Pencarian data");
         System.out.println("------------------------------------------");
-        System.out.print("Masukkan IPK yang dicari: ");
+        System.out.print("Masukkan IPK mahasiswa yang dicari: ");
+        System.out.print("IPK : ");
         double cari = sc.nextDouble();
+
         System.out.println("Menggunakan Sequential Searching");
-        int posisi = list.sequentialSearching(cari);
-        list.tampilPosisi(cari, posisi);
-        list.tampilDataSearch(cari, posisi);
+        double posisi = list.sequentialSearching(cari);
+        int pss = (int) posisi;
+        list.tampilPosisi(cari, pss);
+        list.tampilDataSearch(cari, pss);
     }
 }
