@@ -70,13 +70,13 @@ Pertanyaan
    
 4. Jika data IPK yang dimasukkan tidak urut. Apakah program masih dapat berjalan? Mengapa demikian?
 
-   Program berjalan tidak urut, karena binary search hanya bisa digunakan pada data yang sudah terurut
+   maka program akan tetap berjalan namun bisa saja tidak akurat/tidak sesuai, karena binary search hanya bisa digunakan pada data yang sudah terurut
    
 5. Jika IPK yang dimasukkan dari IPK terbesar ke terkecil (misal: 3.8, 3.7, 3.5, 3.4, 3.2) dan elemen yang dicari adalah 3.2. Bagaimana hasil dari binary search? Apakah sesuai? Jika tidak sesuai maka ubahlah kode program binary seach agar hasilnya sesuai
 
-   Maka hasilnya tidak sesuai (bisa ketemu/bisa salah) karena algoritma menganggap data urut naik
+   maka hasilnya tidak sesuai (bisa ketemu/bisa salah) karena algoritma menganggap data urut naik
 
-   Perbaikan :
+   perbaikan :
 
    ![img](https://github.com/user-attachments/assets/732823be-f645-479e-a1d3-317451e3f388)
 
@@ -88,7 +88,7 @@ Pertanyaan
     
     }
     
-    Jika batas kanan sudah lebih kecil dari kiri, berarti semua data sudah dicek dan data yang dicari tidak ditemukan
+    jika batas kanan sudah lebih kecil dari kiri, berarti semua data sudah dicek dan data yang dicari tidak ditemukan
     
 7. Modifikasi program di atas yang mana jumlah mahasiswa yang diinputkan sesuai dengan masukan dari keyboard.
 
