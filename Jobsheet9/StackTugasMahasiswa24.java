@@ -62,4 +62,13 @@ public class StackTugasMahasiswa24 {
         }
         System.out.println("");
     }
+
+    public Mahasiswa24 lihatBawah() {
+        if (!isEmpty()) {
+            return stack[0];
+        } else {
+            System.out.println("Stack kosong!");
+            return null;
+        }
+    }
 }
