@@ -90,4 +90,13 @@ public class AntrianLayanan {
         size--;
         return mhs;
     }
+    
+    public void LihatAkhir(){
+        if (IsEmpty()) {
+            System.out.println("Antrian kosong.");
+        } else{
+            System.out.println("Mahasiswa paling belakang : ");
+            data[rear].tampilkanData();
+        }
+    }
 }
