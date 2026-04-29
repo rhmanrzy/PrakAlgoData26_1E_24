@@ -51,7 +51,7 @@ Pertanyaan
 
 5. Tambahkan method untuk dapat menghitung berapa banyak tugas yang sudah dikumpulkan saat ini, serta tambahkan operasi menunya!
 
-    StackTugasMahasiswa
+   StackTugasMahasiswa
    
    ![img](https://github.com/user-attachments/assets/e5add401-281b-40d3-8dbd-914f3fd62a62)
 
@@ -77,6 +77,49 @@ Pertanyaan
 
 Pertanyaan
 1. Jelaskan alur kerja dari method konversiDesimalKeBiner!
-   
+
+   buat stack
+   ![img](https://github.com/user-attachments/assets/b5e01fd3-9fb9-4c41-9971-7d316322d7b1)
+
+   proses pembagian berulang
+   ![img](https://github.com/user-attachments/assets/9f4b32ec-7007-4948-928e-943550faf4fd)
+
+   ambil sisa
+   ![img](https://github.com/user-attachments/assets/4ea0742e-6066-4fa1-8d28-f991dc862ee3)
+
+   simpan ke stack
+   ![img](https://github.com/user-attachments/assets/708d7a1e-4f86-48c1-b6bc-577e4116f4a5)
+
+   bagi 2
+   ![img](https://github.com/user-attachments/assets/2bbd9655-1098-4f3c-bb33-e258cfa7cd46)
+
+   ambil hasil dari stack
+   ![img](https://github.com/user-attachments/assets/eb1872a1-22f4-457f-8868-e8638c162867)
+
+   return hasil
+   ![img](https://github.com/user-attachments/assets/1574cd4a-ffd9-48d0-bca7-e8ea7512c33e)
 
 2. Pada method konversiDesimalKeBiner, ubah kondisi perulangan menjadi while (kode != 0), bagaimana hasilnya? Jelaskan alasannya!
+   jika kondisi perulangan diubah menjadi while (kode != 0) maka program akan error karena variabel kode tidak ada
+   
+## 2.4 Latihan Praktikum
+
+![img](https://github.com/user-attachments/assets/1e34c893-93fb-4033-9f6b-9a7d9beeaef9)
+
+1. Terima Surat Izin untuk memasukkan data surat
+
+2. Proses Surat Izin untuk memproses atau memverifikasi surat
+
+3. Lihat Surat Izin Terakhir untuk melihat surat teratas
+
+4. Cari Surat untuk mencari ada atau tidaknya surat izin berdasarkan nama mahasiswa
+
+#### Code Program
+![img](https://github.com/user-attachments/assets/6b2fe718-d722-4767-8191-ce52aa0d283b)
+
+![img](https://github.com/user-attachments/assets/099066bb-23d1-48df-bca1-e5708ec5c83f)
+
+![img](https://github.com/user-attachments/assets/afbc73af-4e9c-4d3f-b0a5-375213e1aa28)
+
+#### Hasil Running
+![img](https://github.com/user-attachments/assets/309c550f-6918-49a8-80da-695f571cf0bd)
