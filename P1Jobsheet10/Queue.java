@@ -75,9 +75,9 @@ public class Queue {
                     rear++;
                 }
             }
+            data[rear] = dt;
+            size++;
         }
-        data[rear] = dt;
-        size++;
     }
 
     public int Dequeue(){
