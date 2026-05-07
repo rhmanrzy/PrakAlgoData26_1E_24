@@ -9,13 +9,21 @@ public class SLLMain00 {
         Mahasiswa00 mhs3 = new Mahasiswa00("2203", "Raka", "SIB-1A", 3.5);
         Mahasiswa00 mhs4 = new Mahasiswa00("2204", "Rahma", "TI-1B", 3.8);
 
-        sll.print();
-        sll.addFirst(mhs4);
-        sll.print();
         sll.addLast(mhs1);
+        sll.addLast(mhs2);
+        sll.addLast(mhs3);
+        sll.addLast(mhs4);
+
+        System.out.println("data index 1 : ");
+        sll.getData(1);
+
+        System.out.println("data mahasiswa an Raka berada pada index : " + sll.indexOf("Raka"));
+        System.out.println();
+
+        sll.removeFirst();
+        sll.removeLast();
         sll.print();
-        sll.insertAfter("Budi", mhs3);
-        sll.insertAt(2, mhs2);
+        sll.removeAt(0);
         sll.print();
     }
 }
