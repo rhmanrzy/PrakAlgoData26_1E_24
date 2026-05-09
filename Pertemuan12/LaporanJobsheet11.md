@@ -24,9 +24,15 @@ Pertanyaan
 
 1. Mengapa hasil compile kode program di baris pertama menghasilkan “Linked List Kosong”?
 
+   karena pada awal program belum ada node atau data yang dimasukkan ke dalam linked lish, sehingga nilai head masih null dan program menampilkan pesan "Linked List Kosong".
+   
 2. Jelaskan kegunaan variable temp secara umum pada setiap method!
 
+   variabel temp digunakan sebagai penunjuk semestara untuk menelusuri node pada linked list tanpa mengubah posisi head.
+   
 3. Lakukan modifikasi agar data dapat ditambahkan dari keyboard!
+
+   ![img](https://github.com/user-attachments/assets/5cc4b8a0-eb83-4a72-b93f-eadd5ef5d7bc)
 
 ## 2.2 Modifikasi Elemen pada Single Linked List
 
@@ -46,10 +52,22 @@ Pertanyaan
 
 1. Mengapa digunakan keyword break pada fungsi remove? Jelaskan!
 
+   keyword break digunakan untuk menghentikan perulangan setelah data berhasil ditemukan dan dihapus, sehingga program tidak melanjutkan pencarian yang tidak diperlukan.
+   
 2. Jelaskan kegunaan kode dibawah pada method remove
 
    ![img](https://github.com/user-attachments/assets/789f0df6-c16c-4560-8de0-2c1bc3675bf3)
 
+   temp.next = temp.next.next;
+
+   digunakan untuk menghapus node dengan cara melewati node yang akan dihapus, sehingga node tersebut tidak lagi terhubung pada linked list.
+
+   if (temp.next == null) {
+   tail = temp;
+   }
+
+   digunakan untuk mengecek apakah node yang dihapus adalah node terakhir. jika iya, maka tail dipindahkan ke node sebelumnya agar penunjuk akhir linked list tetap benar.
+   
 ## Tugas
 
 Buatlah implementasi program antrian layanan unit kemahasiswaan sesuai dengan berikut ini :
@@ -69,3 +87,19 @@ f. Memanggil antrian
 g. Menampilkan antrian terdepan dan antrian paling akhir
 
 h. Menampilkan jumlah mahasiswa yang masih mengantre.
+
+#### Code Program
+
+![img](https://github.com/user-attachments/assets/59cb708a-b44f-4973-8276-f5d894aefb90)
+
+![img](https://github.com/user-attachments/assets/dad19fdc-a92c-4d62-9f21-ac9dd50fa5a0)
+
+![img](https://github.com/user-attachments/assets/4bc91e1e-3d50-467e-9c9b-c652915faf91)
+
+![img](https://github.com/user-attachments/assets/384a5c70-35f7-4a2d-ba96-a6fabb2fac36)
+
+#### Hasil Running
+
+![img](https://github.com/user-attachments/assets/f4641889-f77c-4114-89a6-0e972703b846)
+
+![img](https://github.com/user-attachments/assets/4701d34b-61ef-4285-96fd-6e5b1140e5b5)
