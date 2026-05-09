@@ -87,3 +87,19 @@ f. Memanggil antrian
 g. Menampilkan antrian terdepan dan antrian paling akhir
 
 h. Menampilkan jumlah mahasiswa yang masih mengantre.
+
+#### Code Program
+
+![img](https://github.com/user-attachments/assets/59cb708a-b44f-4973-8276-f5d894aefb90)
+
+![img](https://github.com/user-attachments/assets/dad19fdc-a92c-4d62-9f21-ac9dd50fa5a0)
+
+![img](https://github.com/user-attachments/assets/4bc91e1e-3d50-467e-9c9b-c652915faf91)
+
+![img](https://github.com/user-attachments/assets/384a5c70-35f7-4a2d-ba96-a6fabb2fac36)
+
+#### Hasil Running
+
+![img](https://github.com/user-attachments/assets/f4641889-f77c-4114-89a6-0e972703b846)
+
+![img](https://github.com/user-attachments/assets/4701d34b-61ef-4285-96fd-6e5b1140e5b5)
