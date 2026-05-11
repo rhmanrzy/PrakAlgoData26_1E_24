@@ -1,7 +1,5 @@
 package Jobsheet12;
 
-import org.w3c.dom.Node;
-
 public class Node24 {
     Mahasiswa24 data;
     Node24 prev;
