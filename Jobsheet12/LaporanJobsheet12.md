@@ -1,4 +1,4 @@
-<img width="481" height="913" alt="image" src="https://github.com/user-attachments/assets/e38a47d9-c198-4a57-a566-3282c6a1dae2" /><img width="481" height="913" alt="image" src="https://github.com/user-attachments/assets/49019854-9ff2-471c-8c6b-e62392dc9084" /># Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 DOUBLE LINKED LIST
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 12 DOUBLE LINKED LIST
 
 #### Nama : Rahma Aulia Nurrizky
 #### NIM : 254107020168
