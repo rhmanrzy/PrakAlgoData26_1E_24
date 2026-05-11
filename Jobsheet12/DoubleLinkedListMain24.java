@@ -49,9 +49,11 @@ public class DoubleLinkedListMain24 {
                     break;
                 case 4:
                     list.removeFirst();
+                    System.out.println("Data berhasil dihapus.");
                     break;
                 case 5:
                     list.removeLast();
+                    System.out.println("Data berhasil dihapus.");
                     break;
                 case 6:
                     list.print();
