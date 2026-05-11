@@ -1,7 +1,5 @@
 package Jobsheet12;
 
-import org.w3c.dom.Node;
-
 public class DoubleLinkedList24 {
     Node24 head;
     Node24 tail;
