@@ -23,10 +23,10 @@ public class DoubleLinkedListMain24 {
             System.out.println("\n===== MENU DOUBLE LINKED LIST =====");
             System.out.println("1. Tambah data di awal");
             System.out.println("2. Tambah data di akhir");
-            System.out.println("3. Sisipkan data di tengah (setelah NIM)");
-            System.out.println("4. Hapus data di awal");
-            System.out.println("5. Hapus data di akhir");
-            System.out.println("6. Tampilkan data");
+            System.out.println("3. Sisipkan data setelah NIM tertentu");
+            System.out.println("4. Tambah data pada index tertentu");
+            System.out.println("5. Hapus data di awal");
+            System.out.println("6. Hapus data di akhir");
             System.out.println("7. Hapus data setelah NIM tertentu");
             System.out.println("8. Hapus data berdasarkan index");
             System.out.println("9. Tampilkan data");
