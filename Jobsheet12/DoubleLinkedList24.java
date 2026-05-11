@@ -99,4 +99,16 @@ public class DoubleLinkedList24 {
             tail.next = null;
         }
     }
+
+    public void printReverse() {
+        if (isEmpty()) {
+            System.out.println("Linked List masih kosong.");
+            return;
+        }
+        Node24 current = tail;
+        while (current != null) {
+            current.data.tampil();
+            current = current.prev;
+        }
+    }
 }
