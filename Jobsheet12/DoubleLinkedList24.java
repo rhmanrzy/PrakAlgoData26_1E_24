@@ -67,7 +67,6 @@ public class DoubleLinkedList24 {
             System.out.println("Linked List masih kosong.");
             return;
         }
-
         Node24 current = head;
         while (current != null) {
             current.data.tampil();
