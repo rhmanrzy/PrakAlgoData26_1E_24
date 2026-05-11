@@ -14,7 +14,7 @@ public class Mahasiswa24 {
     public void tampil() {
         System.out.println(
             "NIM     : " + nim +
-            "\n Nama   : " + nama +
+            "\nNama    : " + nama +
             "\nKelas   : " + kelas +
             "\nIPK     : " + ipk
         );
