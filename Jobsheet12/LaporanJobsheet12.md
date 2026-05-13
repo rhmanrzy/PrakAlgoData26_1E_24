@@ -25,17 +25,17 @@ Pertanyaan
 
    - Single linked list :
 
-     Setiap node hanya memiliki satu pointer yaitu next, Traversal hanya bisa dilakukan dari depan ke belakang, Struktur lebih sederhana dan hemat memori, Penghapusan node lebih sulit karena harus mencari node sebelumnya terlebih dahulu.
+     Setiap node hanya memiliki satu pointer yaitu next, Traversal memiliki satu arah hanya bisa dilakukan dari depan ke belakang, Lebih hemat memori, setiap node menyimpan 1 pointer, Kurang fleksibel untuk operasi yang membutuhkan akses mundur, Tidak bisa traversal mundur (ke node sebelumnya), Implementasi lebih sederhana.
 
    - Double linked list :
 
-     Setiap node memiliki dua pointer yaitu next dan prov, Traversal bisa dilakukan dari depan ke belakang maupun ke depan, Membutuhkan memori lebih banyak karena ada dua pointer, Penghapusan node lebih mudah karena node sebelumnya sudah disimpan di prev.
+     Setiap node memiliki dua pointer yaitu next dan prov, Traversal memiliki dua arah bisa dilakukan dari depan ke belakang maupun ke depan, Lebih boros memori, setiap node menyimpan 2 pointer, Lebih fleksibel untuk operasi insert, hapus, dan traversal dua arah, Bisa traversal mundur (ke node sebelumnya), Implementasi lebih kompleks, perlu update prev dan tidak boleh salah pointer.
 
 2. Perhatikan class Node, di dalamnya terdapat atribut next dan prev. Jelaskan fungsi masing-masing atribut tersebut pada proses traversal dan manipulasi node!
 
-   - Next berfungsi menyimpan alamat node berikutnya sehingga memudahkan program bisa bergerak ke data selanjutnya.
+   - Next berfungsi menyimpan referensi ke node berikutnya.
 
-   - Prev berfungsi menyimpan alamat node sebelumnya sehingga memudahkan program bisa kembali ke data sebelumnya serta mempermudah proses penghapusan dan penyisipan node.
+   - Prev berfungsi menyimpan referensi ke node sebelumnya.
 
 3. Perhatikan konstruktor pada class DoubleLinkedList. Jelaskan fungsi konstruktor tersebut terhadap kondisi awal linked list!
 
@@ -92,7 +92,7 @@ Pertanyaan Percobaan
 
    ![img](https://github.com/user-attachments/assets/b9034d71-0e43-4723-8660-72fa9b6b5033)
 
-Tugas Praktikum
+## Tugas Praktikum
 
 1. Tambahkan method add(int index, Mahasiswa data) untuk menambahkan node pada indeks tertentu!
 
