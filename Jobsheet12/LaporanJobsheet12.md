@@ -114,24 +114,22 @@ Pertanyaan Percobaan
 
 #### Code Program
 
-![img](https://github.com/user-attachments/assets/3224a038-4339-4c22-a772-e4e2bc4b1937)
+![img](https://github.com/user-attachments/assets/3ae1b3e1-7fe2-45ae-bede-6df5039a7609)
 
-![img](https://github.com/user-attachments/assets/f9e07944-3110-4967-8168-977644ad161b)
+![img](https://github.com/user-attachments/assets/e32d96d8-6567-4dbe-8993-4b73a52a94a0)
 
-![img](https://github.com/user-attachments/assets/11cd3fe5-8867-471c-b5ef-bde47bc927db)
+![img](https://github.com/user-attachments/assets/2b9aa6d7-3e12-47f5-afbc-83b839903b3c)
 
-![img](https://github.com/user-attachments/assets/2658b356-2cc8-4153-bf7e-6be83619e760)
+![img](https://github.com/user-attachments/assets/42813da8-2dd1-455e-b725-da0dac4b9d24)
 
 #### Hasil Running
 
-![img](https://github.com/user-attachments/assets/54265218-578b-46e4-a811-a243e1d65588)
+![img](https://github.com/user-attachments/assets/021a8b2d-3ef5-434b-9eb4-4b1fb530de75)
 
-![img](https://github.com/user-attachments/assets/58457628-6100-471b-8fa6-4569a9db07be)
+![img](https://github.com/user-attachments/assets/f915fe58-cc05-44ee-b267-43b51629dc8f)
 
-![img](https://github.com/user-attachments/assets/01ac1be8-5197-4d01-9374-f3a666d2dcf1)
+![img](https://github.com/user-attachments/assets/2714cd49-f09f-4eb1-8f95-47efd1f56951)
 
-![img](https://github.com/user-attachments/assets/1bd5cfac-1aba-450c-a63e-0ddb344793c7)
+![img](https://github.com/user-attachments/assets/1bd3e7ad-fbd3-46ca-9ccb-f5b44bd4381b)
 
-![img](https://github.com/user-attachments/assets/f41affa4-62c1-4e5b-8101-1c7caa8264a8)
-
-![img](https://github.com/user-attachments/assets/f9461b8d-273c-46b3-9563-e8cdc386bec2)
+![img](https://github.com/user-attachments/assets/da2d3ba1-a9dd-48b5-9f1e-ff540abefe8a)
