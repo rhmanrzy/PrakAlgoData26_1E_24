@@ -52,9 +52,7 @@ public class DoubleLinkedList24 {
             System.out.println("Data dengan NIM " + keyNim + " tidak ditemukan.");
             return;
         }
-
         Node24 newNode = new Node24(data);
-
         if (current == tail) {
             newNode.prev = current;
             current.next = newNode;
@@ -69,32 +67,6 @@ public class DoubleLinkedList24 {
         System.out.println("Data berhasil disisipkan setelah NIM " + keyNim);
     }
 
-    public void add(int index, Mahasiswa24 data) {
-        if (index < 0 || index > size) {
-            System.out.println("Index tidak valid.");
-            return;
-        }
-        if (index == 0) {
-            addFirst(data);
-            return;
-        }
-        if (index == size) {
-            addLast(data);
-            return;
-        }
-        Node24 current = head;
-        for (int i = 0; i < index - 1; i++) {
-            current = current.next;
-        }
-        Node24 newNode = new Node24(data);
-        newNode.next = current.next;
-        newNode.prev = current;
-        current.next.prev = newNode;
-        current.next = newNode;
-        size++;
-        System.out.println("Data berhasil ditambahkan pada index " + index);
-    }
-
     public void print() {
         if (isEmpty()) {
             System.out.println("Linked List masih kosong.");
@@ -104,18 +76,6 @@ public class DoubleLinkedList24 {
         while (current != null) {
             current.data.tampil();
             current = current.next;
-        }
-    }
-
-    public void printReverse() {
-        if (isEmpty()) {
-            System.out.println("Linked List masih kosong.");
-            return;
-        }
-        Node24 current = tail;
-        while (current != null) {
-            current.data.tampil();
-            current = current.prev;
         }
     }
 
@@ -151,6 +111,32 @@ public class DoubleLinkedList24 {
         size--;
         System.out.println("Data berhasil dihapus : ");
         dataHapus.tampil();
+    }
+
+    public void add(int index, Mahasiswa24 data) {
+        if (index < 0 || index > size) {
+            System.out.println("Index tidak valid.");
+            return;
+        }
+        if (index == 0) {
+            addFirst(data);
+            return;
+        }
+        if (index == size) {
+            addLast(data);
+            return;
+        }
+        Node24 current = head;
+        for (int i = 0; i < index - 1; i++) {
+            current = current.next;
+        }
+        Node24 newNode = new Node24(data);
+        newNode.next = current.next;
+        newNode.prev = current;
+        current.next.prev = newNode;
+        current.next = newNode;
+        size++;
+        System.out.println("Data berhasil ditambahkan pada index " + index);
     }
 
     public void removeAfter(String keyNim) {
