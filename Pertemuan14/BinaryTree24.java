@@ -51,9 +51,9 @@ public class BinaryTree24 {
                 result = true;
                 break;
             } else if (ipk24 < current.mahasiswa24.ipk24) {
-                current = current.right24;
-            } else {
                 current = current.left24;
+            } else {
+                current = current.right24;
             }
         }
 
