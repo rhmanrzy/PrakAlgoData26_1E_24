@@ -32,9 +32,16 @@ public class BinaryTreeMain24 {
         System.out.println("\nPost order traversal : ");
         bst.traversePostOrder(bst.root24);
 
-        System.out.println("\nPeenghapusan data mahasiswa");
+        System.out.println("\nPenghapusan data mahasiswa");
         bst.delete(3.57);
         System.out.println("\nDaftar semua mahasiswa setelah penghapusan 1 mahasiswa dengan (in order traversal) : ");
         bst.traverseInOrder(bst.root24);
+
+        System.out.println("\nMahasiswa dengan IPK paling kecil : ");
+        bst.cariMinIPK();
+        System.out.println("\nMahasiswa dengan IPK paling besar : ");
+        bst.cariMaxIPK();
+        System.out.println("\nMahasiswa dengan IPK di atas 3.50 : ");
+        bst.tampilMahasiswaIPKDiAtas(3.50);
     }
 }
