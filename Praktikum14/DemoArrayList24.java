@@ -7,26 +7,22 @@ public class DemoArrayList24 {
     public static void main(String[] args) {
         Scanner sc24 = new Scanner(System.in);
 
-        ArrayList<Customer24> customers = new ArrayList<>(2);
+        ArrayList<Customer24> customers = new ArrayList<>();
 
-        Customer24 customer1 = new Customer24(1, "Zakia");
-        Customer24 customer2 = new Customer24(5, "Budi");
+        customers.add(new Customer24(1, "Zakia"));
+        customers.add(new Customer24(5, "Budi"));
 
-        customers.add(customer1);
-        customers.add(customer2);
+        ArrayList<Customer24> newCustomers = new ArrayList<>();
+        newCustomers.add(new Customer24(201, "Della"));
+        newCustomers.add(new Customer24(202, "Victor"));
+        newCustomers.add(new Customer24(203, "Sarah"));
 
-        customers.add(new Customer24(4, "Cica"));
-
-        customers.add(2, new Customer24(100, "Rosa"));
-
-        System.out.println(customers.indexOf(customer2));
-
-        Customer24 customer = customers.get(1);
-        System.out.println(customer.name24);
-        customer.name24 = "Budi Utomo";
+        customers.addAll(newCustomers);
 
         for (Customer24 cust : customers) {
-            System.out.println(cust);
+            System.out.println(cust.toString());
         }
+
+        System.out.println(customers);
     }
 }
