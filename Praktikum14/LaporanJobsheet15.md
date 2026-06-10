@@ -6,11 +6,11 @@
 
 ## 13.2 Persiapan
 
-Class customer.
+Class customer
 
 ![img](https://github.com/user-attachments/assets/e3bdd424-d6a5-445a-bfae-8a334dfa69cd)
 
-Class book.
+Class book
 
 ![img](https://github.com/user-attachments/assets/bc5a69b8-a2db-4d38-8d71-8b244866ccef)
 
@@ -111,13 +111,13 @@ Class book.
 
 Selain pencarian data menggunakan method get() atau search(), Java Collection Framework juga menyediakan fungsi untuk melakukan pengurutan data. Untuk melakukan pengurutan data String, int, atau primitive data type lain, Anda dapat melakukan cara berikut :
 
-Class sortingstring.
+Class sortingstring
 
 ![img](https://github.com/user-attachments/assets/6f2f77bd-91bd-45b8-81e6-437c5d915ba4)
 
 Khusus untuk collection of objects, pengurutan data harus menentukan berdasarkan atribut mana pengurutan dilakukan. Misalnya ingin dilakukan pengurutan data customer pada praktikum di atas berdasarkan atribut name. Gunakan kode program berikut (berikan nama variabel c1 dan c2 secara random. Anda bisa menggunakan nama variabel lainnya)
 
-Class sortingcustomer.
+Class sortingcustomer
 
 ![img](https://github.com/user-attachments/assets/008b5e37-a176-49e2-8105-7df29c9c15a6)
 
