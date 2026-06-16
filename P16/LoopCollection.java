@@ -6,7 +6,7 @@ import java.util.List;
 
 public class LoopCollection {
     public static void main(String[] args) {
-        List<String> fruits = new Stack<>();
+        Stack<String> fruits = new Stack<>();
         fruits.push("Banana");
         fruits.add("Orange");
         fruits.add("Watermelon");
@@ -21,6 +21,8 @@ public class LoopCollection {
             System.out.printf("%s ", fruits.pop());
         }
 
+        fruits.push("Melon");
+        fruits.push("Durian");
         System.out.println("");
         for (Iterator<String> it = fruits.iterator(); it.hasNext();) {
             String fruit = it.next();
@@ -34,5 +36,9 @@ public class LoopCollection {
         for (int i = 0; i < fruits.size(); i++) {
             System.out.printf("%s ", fruits.get(i));
         }
+
+        fruits.set(fruits.size() - 1, "Strawberry");
+        System.out.println("\nSetelah mengganti elemen terakhir: ");
+        System.out.println(fruits);
     }
 }
