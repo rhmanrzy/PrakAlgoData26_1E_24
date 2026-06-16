@@ -1,4 +1,4 @@
-<img width="243" height="80" alt="image" src="https://github.com/user-attachments/assets/bba08c88-ec3c-47fd-bfde-4c0c148ea711" /># Laporan Praktikum Algoritma dan Struktur Data Jobsheet 16 Collection
+# Laporan Praktikum Algoritma dan Struktur Data Jobsheet 16 Collection
 
 #### Nama : Rahma Aulia Nurrizky
 #### NIM : 254107020168
