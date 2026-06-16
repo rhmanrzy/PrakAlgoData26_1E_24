@@ -7,7 +7,7 @@ import java.util.List;
 public class ContohList {
     public static void main(String[] args) {
 
-        List<String> l = new ArrayList();
+        LinkedList<String> l = new LinkedList<>();
         l.add("Mi goreng");
         l.add("Nasi Goreng");
         l.add("Mi ayam");
