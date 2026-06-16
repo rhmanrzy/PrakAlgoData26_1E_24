@@ -3,6 +3,8 @@ package P16;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.Collections;
+import java.util.Comparator;
 
 public class ListMahasiswa {
     List<Mahasiswa> mahasiswas = new ArrayList<>();
@@ -25,13 +27,10 @@ public class ListMahasiswa {
         });
     }
 
-    int linierSearch(String nim) {
-        for (int i = 0; i < mahasiswas.size(); i++) {
-            if (nim.equals(mahasiswas.get(i).nim)) {
-                return i;
-            }
-        }
-        return -1;
+    public int binarySearch(String nim) {
+        Collections.sort(mahasiswas, java.util.Comparator.comparing(m -> m.nim));
+        Mahasiswa key = new Mahasiswa(nim, "", "");
+        return Collections.binarySearch(mahasiswas, key, Comparator.comparing(m -> m.nim));
     }
 
     public static void main(String[] args) {
@@ -41,7 +40,7 @@ public class ListMahasiswa {
         Mahasiswa m2 = new Mahasiswa("201236", "Shannum", "021xx3");
         lm.tambah(m, m1, m2);
         lm.tampil();
-        lm.update(lm.linierSearch("201235"), new Mahasiswa("201235", "Akhleema Lela", "021xx2"));
+        lm.update(lm.binarySearch("201235"), new Mahasiswa("201235", "Akhleema Lela", "021xx2"));
         System.out.println("");
         lm.tampil();;
     }
