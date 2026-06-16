@@ -26,7 +26,10 @@ public class ContohList {
         names.add("Shannum");
         names.add("Uwais");
         names.add("Al-Qarni");
-
+        names.push("Mei-mei");
+        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
+                names.getFirst(), names.size(), names.getLast());
+        System.out.println("Names: " + names.toString());
         System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
                 names.get(0), names.size(), names.get(names.size() - 1));
         names.set(0, "My kid");
