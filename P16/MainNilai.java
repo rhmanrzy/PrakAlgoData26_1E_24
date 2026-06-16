@@ -3,13 +3,15 @@ package P16;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.Scanner;
 
 public class MainNilai {
-
     static ArrayList<Mahasiswa> daftarMhs = new ArrayList<>();
-    static ArrayList<MataKuliah> daftarMK = new ArrayList<>();
-    static ArrayList<Nilai> daftarNilai = new ArrayList<>();
+static ArrayList<MataKuliah> daftarMK = new ArrayList<>();
+static ArrayList<Nilai> daftarNilai = new ArrayList<>();
+static Queue<Mahasiswa> queueMhs = new LinkedList<>();
 
     public static void main(String[] args) {
 
@@ -20,7 +22,7 @@ public class MainNilai {
         daftarMhs.add(new Mahasiswa("20004", "Sa'ad", "021xxx"));
         daftarMhs.add(new Mahasiswa("20005", "Sa'id", "021xxx"));
         daftarMhs.add(new Mahasiswa("20006", "Ubaidah", "021xxx"));
-
+        queueMhs.addAll(daftarMhs);
         daftarMK.add(new MataKuliah("00001", "Internet of Things", 3));
         daftarMK.add(new MataKuliah("00002", "Algoritma dan Struktur Data", 2));
         daftarMK.add(new MataKuliah("00003", "Algoritma dan Pemrograman", 2));
@@ -37,7 +39,8 @@ public class MainNilai {
             System.out.println("2. Tampil Nilai");
             System.out.println("3. Mencari Nilai Mahasiswa");
             System.out.println("4. Urut Data Nilai");
-            System.out.println("5. Keluar");
+            System.out.println("5. Hapus Data Mahasiswa (Queue)");
+            System.out.println("6. Keluar");
             System.out.println("************************************************");
             System.out.print("Pilih : ");
             pilih = sc.nextInt();
@@ -127,12 +130,25 @@ public class MainNilai {
                     }
                     break;
                 case 5:
+                if (queueMhs.isEmpty()) {
+                    System.out.println("Data mahasiswa kosong!");
+                } else {
+                    Mahasiswa hapus = queueMhs.poll();
+                    daftarMhs.removeIf(m -> m.nim.equals(hapus.nim));
+                    daftarNilai.removeIf(n -> n.mahasiswa.nim.equals(hapus.nim));
+                    System.out.println("\nDATA MAHASISWA YANG DIHAPUS (FIFO)");
+                    System.out.println("************************************************");
+                    System.out.printf("%-8s %-15s %-10s\n", "NIM", "Nama", "Telf");
+                    System.out.printf("%-8s %-15s %-10s\n", hapus.nim, hapus.nama, hapus.notelp);
+                }
+                break;
+                case 6:
                     System.out.println("Program selesai...");
                     break;
                 default:
                     System.out.println("Menu tidak tersedia!");
             }
             System.out.println();
-        } while (pilih != 5); 
+        } while (pilih != 6); 
     }
 }
