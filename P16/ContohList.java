@@ -13,14 +13,14 @@ public class ContohList {
         l.add(3);
         l.add(4);
 
-        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
+        System.out.printf("Elemen 0: %d total elemen: %s elemen terakhir: %s\n",
                 l.get(0), l.size(), l.get(l.size() - 1));
         l.add(4);
         l.remove(0);
-        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
+        System.out.printf("Elemen 0: %d total elemen: %s elemen terakhir: %s\n",
                 l.get(0), l.size(), l.get(l.size() - 1));
 
-        LinkedList<String> names = new LinkedList<>();
+        List<String> names = new LinkedList<>();
         names.add("Noureen");
         names.add("Akhleema");
         names.add("Shannum");
