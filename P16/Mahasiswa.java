@@ -14,6 +14,6 @@ public class Mahasiswa {
 
     @Override
     public String toString() {
-        return "Mahasiswa{" + "nim=" + ", nama=" + nama + ", notelp=" + notelp + '}';
+        return nim + "\t" + nama + "\t" + notelp;
     }
 }
