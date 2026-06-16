@@ -1,8 +1,8 @@
 package P16;
 
+import java.util.Collections;
 import java.util.Iterator;
 import java.util.Stack;
-import java.util.List;
 
 public class LoopCollection {
     public static void main(String[] args) {
@@ -39,6 +39,13 @@ public class LoopCollection {
 
         fruits.set(fruits.size() - 1, "Strawberry");
         System.out.println("\nSetelah mengganti elemen terakhir: ");
+        System.out.println(fruits);
+
+        fruits.add("Mango");
+        fruits.add("Guava");
+        fruits.add("Avocado");
+        Collections.sort(fruits);
+        System.out.println("\nSetelah menambah data dan sorting:");
         System.out.println(fruits);
     }
 }
