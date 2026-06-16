@@ -33,6 +33,14 @@ public class ListMahasiswa {
         return Collections.binarySearch(mahasiswas, key, Comparator.comparing(m -> m.nim));
     }
 
+    public void sortingAsc() {
+        Collections.sort(mahasiswas, (a, b) -> a.nama.compareTo(b.nama));
+    }
+
+    public void sortingDesc() {
+        Collections.sort(mahasiswas, (a, b) -> b.nama.compareTo(a.nama));
+    }
+
     public static void main(String[] args) {
         ListMahasiswa lm = new ListMahasiswa();
         Mahasiswa m = new Mahasiswa("201234", "Noureen", "021xx1");
@@ -43,5 +51,11 @@ public class ListMahasiswa {
         lm.update(lm.binarySearch("201235"), new Mahasiswa("201235", "Akhleema Lela", "021xx2"));
         System.out.println("");
         lm.tampil();;
+        System.out.println("\nData setelah sorting ascending: ");
+        lm.sortingAsc();
+        lm.tampil();
+        System.out.println("\nData setelah sorting descending: ");
+        lm.sortingDesc();
+        lm.tampil();
     }
 }
