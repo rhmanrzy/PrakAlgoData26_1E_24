@@ -7,17 +7,17 @@ import java.util.List;
 public class ContohList {
     public static void main(String[] args) {
 
-        List<Integer> l = new ArrayList();
-        l.add(1);
-        l.add(2);
-        l.add(3);
-        l.add(4);
+        List<String> l = new ArrayList();
+        l.add("Mi goreng");
+        l.add("Nasi Goreng");
+        l.add("Mi ayam");
+        l.add("Cireng");
 
-        System.out.printf("Elemen 0: %d total elemen: %d elemen terakhir: %s\n",
+        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
                 l.get(0), l.size(), l.get(l.size() - 1));
-        l.add(4);
+        l.add("Cireng");
         l.remove(0);
-        System.out.printf("Elemen 0: %d total elemen: %d elemen terakhir: %s\n",
+        System.out.printf("Elemen 0: %s total elemen: %s elemen terakhir: %s\n",
                 l.get(0), l.size(), l.get(l.size() - 1));
 
         List<String> names = new LinkedList<>();
