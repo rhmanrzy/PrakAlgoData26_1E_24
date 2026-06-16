@@ -20,8 +20,6 @@ public class LoopCollection {
             System.out.printf("%s ", fruits.pop());
         }
 
-        fruits.push("Melon");
-        fruits.push("Durian");
         System.out.println("");
         for (Iterator<String> it = fruits.iterator(); it.hasNext();) {
             String fruit = it.next();
